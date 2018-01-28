@@ -1,0 +1,24 @@
+{
+  "name": "neighborhood-api",
+  "version": "0.0.1",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "atob": "^2.0.3",
+    "body-parser": "^1.14.1",
+    "google-auth-library": "^0.12.0",
+    "googleapis": "^23.0.2",
+    "moment-timezone": "^0.5.14",
+    "opn": "^5.1.0",
+    "rc": "^1.1.5",
+    "require-all": "^2.0.0",
+    "restify": "^4.3.0",
+    "restify-plugins": "^1.6.0",
+    "restify-router": "^0.4.2",
+    "thinky": "^2.3.8"
+  }
+}

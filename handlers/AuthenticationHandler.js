@@ -61,7 +61,7 @@ module.exports = {
         gmail.users.labels.create({
             'userId': 'jarvisautomator@gmail.com',
             'resource': {
-                'name': 'COMPLETED'
+                'name': 'IN_PROGRESS'
             }
         }, (err, response) => {
             if (!err) {

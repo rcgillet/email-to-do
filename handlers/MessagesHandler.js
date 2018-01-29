@@ -1,4 +1,3 @@
-const passport = require('passport-google-oauth');
 const config = require('../config/config');
 const google = require('googleapis');
 const gmail = google.gmail('v1');
